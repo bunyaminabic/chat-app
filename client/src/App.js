@@ -1,12 +1,12 @@
 import "./App.css";
-import { chatProvider } from "./context/ChatContext";
+import { ChatProvider } from "./context/ChatContext";
 import Container from "./components/Container";
 
 function App() {
   return (
-    <chatProvider>
+    <ChatProvider>
       <Container />
-    </chatProvider>
+    </ChatProvider>
   );
 }
 
